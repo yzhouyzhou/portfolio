@@ -39,7 +39,6 @@ var projects = [
     title: "Word-Guess-Game May 10 2019",
     href: "https://yzhouyzhou.github.io/Word-Guess-Game"
   }
-
 ];
 
 module.exports = projects;
