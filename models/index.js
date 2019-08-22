@@ -1,5 +1,9 @@
 var projects = [
   {
+    title: "Horus home monitor system August 15 2019",
+    href: "https://horus-home-sensor.herokuapp.com/"
+  },
+  {
     title: "Eat-Da-Burger July 30 2019",
     href: "https://yzhou-burger-liver1.herokuapp.com"
   },
