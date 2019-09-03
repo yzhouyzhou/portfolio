@@ -1,5 +1,9 @@
 var projects = [
   {
+    title: "React Clicky Game September 2 2019",
+    href: "https://yzhouyzhou.github.io/clicky-game/"
+  },
+  {
     title: "ABC news US mongoose scrape August 28 2019",
     href: "https://yzhou-abcnews-us-scrape-live.herokuapp.com/"
   },
