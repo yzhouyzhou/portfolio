@@ -1,6 +1,6 @@
 var projects = [
   {
-    title: "React Clicky Game September 2 2019",
+    title: "React Clicky Game September 5 2019",
     href: "https://yzhouyzhou.github.io/clicky-game/"
   },
   {
