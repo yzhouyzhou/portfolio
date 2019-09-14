@@ -1,7 +1,7 @@
 var projects = [
   {
     title: "MERN Google Book Search September 15 2019",
-    href: "hhttps://yzhou-mern-booksearch-live1.herokuapp.com/"
+    href: "https://yzhou-mern-booksearch-live1.herokuapp.com/"
   },
   {
     title: "React Clicky Game September 5 2019",
