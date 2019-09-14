@@ -4,7 +4,7 @@ var path = require("path");
 module.exports = function (app) {
 
     app.get("/Resume", function (req, res) {
-        res.sendFile(path.join(__dirname, "../public/assets/images/YingZhouResume.pdf"));
+        res.sendFile(path.join(__dirname, "../public/assets/images/ying-zhou-resume.pdf"));
     });
 
     app.get("*", function (req, res) {
