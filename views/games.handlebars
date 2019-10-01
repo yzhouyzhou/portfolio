@@ -1,0 +1,41 @@
+<main class="container mt-5 mb-9 p-5 border bg-gray text-black">
+    <div class="row">
+        <div class="col-12">
+            <h3>Games</h3>
+            <hr class="border-dark">
+        </div>
+    </div>    
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <p><strong>Post-graduation classes-</strong> <br>
+                <strong>Data Science with Python programming at Depaul University</strong> - gained grade 'A'.
+                One project to analysis QQQ stock market and WTI crude coefficient, sets WTI
+                settlement price as independent and QQQ close price as dependent. It needs to download
+                historical datasets, clean datasets dealing with missing data, split data into train and test
+                portion, use train dataset to fit into a linear regression model and use test dataset to
+                predict. It was programed in python, run on anaconda spider, use numpy and panda libary.
+            </p>
+            <p><strong>Full Stack Coding Bootcamp at Northwestern University</strong> - This is a 24-week intense coding class, 
+            which introduces front-end and back-end full stack programing including HTML5, CSS, jQuery, JavaScript/AJAX, 
+            bootstrap, node, express, MVC, MongoDb, noSQL, React, ES6 and Git. 
+            The following projects are done from this Coding Bootcamp:
+            </p>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-10">
+            <ul>
+                {{#each projects}}
+                <li>
+                    <a href={{href}} target="_blank"> {{title}}</a>
+                </li>
+                {{/each}}
+            </ul>
+
+        </div>
+        <div class="col-sm-1"></div>
+    </div>
+</main>
